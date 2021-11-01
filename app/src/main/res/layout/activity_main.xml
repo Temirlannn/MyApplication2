@@ -28,13 +28,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:layout_margin="20dp">
+        android:layout_marginStart="20dp">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="20dp"
-
             android:text="Имя:"
 
             />
@@ -43,7 +42,6 @@
             android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:inputType="text"
-
             android:hint="Введите имя"
 
             />
@@ -52,31 +50,27 @@
     </LinearLayout>
 
 
-
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_margin="20dp">
+        android:layout_margin="20dp"
+        android:orientation="vertical">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="20dp"
             android:text="Возраст:"
+            android:textSize="20dp"
 
             />
 
         <EditText
             android:layout_width="200dp"
             android:layout_height="wrap_content"
-            android:inputType="number"
             android:hint="Введите возраст"
+            android:inputType="number"
 
             />
-
-
 
 
     </LinearLayout>
@@ -109,7 +103,10 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="Сохранить"/>
-    
+        android:layout_margin="16dp"
+        android:text="Сохранить"
+        android:textAllCaps="false"
+
+        />
+
 </LinearLayout>
