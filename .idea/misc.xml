@@ -3,8 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/MyComp/Documents/GitHub/MyApplication2/app/src/main/res/drawable/ic_back.xml" value="0.20923076923076922" />
         <entry key="..\:/Users/MyComp/Documents/GitHub/MyApplication2/app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="..\:/Users/MyComp/Documents/GitHub/MyApplication2/app/src/main/res/layout/activity_main2.xml" value="0.25" />
         <entry key="..\:/Users/MyComp/Documents/GitHub/MyApplication2/app/src/main/res/layout/activity_second.xml" value="0.2" />
+        <entry key="..\:/Users/MyComp/Documents/GitHub/MyApplication2/app/src/main/res/layout/activity_second_activitydamashka.xml" value="0.2" />
       </map>
     </option>
   </component>
