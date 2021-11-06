@@ -9,6 +9,7 @@ class SecondActivitydamashka : AppCompatActivity() {
 
     lateinit var textfirstNAme2:EditText
     lateinit var textsecondName:EditText
+
     lateinit var btnknopka:ImageButton
 
 
@@ -20,11 +21,8 @@ class SecondActivitydamashka : AppCompatActivity() {
         btnknopka = findViewById(R.id.btnknopka)
 
 
-        val firstName2 = intent.getStringExtra("NAME")
+        val firstNAme2 = intent.getStringExtra("NAME")
         val secondName = intent.getStringExtra("MAMA")
-
-        textfirstNAme2.text = firstName2
-        textsecondName.text = secondName.toString()
 
         btnknopka.setOnClickListener{
             onBackPressed()
