@@ -15,14 +15,20 @@ class SecondActivitydamashka : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_second_activitydamashka)
+
 
         textfirstNAme2 = findViewById(R.id.firstname2)
         textsecondName = findViewById(R.id.secondName)
+
+
         btnknopka = findViewById(R.id.btnknopka)
 
+        val name = intent.getStringExtra("NAME")
+        val name2 = intent.getStringExtra("MAMA")
 
-        val firstNAme2 = intent.getStringExtra("NAME")
-        val secondName = intent.getStringExtra("MAMA")
+        textfirstNAme2.text = name
+        textsecondName.text = name2
 
         btnknopka.setOnClickListener{
             onBackPressed()

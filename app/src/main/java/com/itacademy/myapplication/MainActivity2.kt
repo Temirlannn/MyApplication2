@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
+import com.itacademy.myapplication.models.User
 
 class MainActivity2 : AppCompatActivity() {
     lateinit var firstName2: EditText
@@ -25,6 +26,11 @@ class MainActivity2 : AppCompatActivity() {
             val intent = Intent(this,SecondActivitydamashka::class.java)
             intent.putExtra("NAME",name)
             intent.putExtra("MAMA",name2)
+
+            // 2 вариант,
+            //val user: User = User (name,surname, phone, password, birtDate)
+            //intent.putExtra(name:"USER", user)
+
 
             startActivity(intent)
 
