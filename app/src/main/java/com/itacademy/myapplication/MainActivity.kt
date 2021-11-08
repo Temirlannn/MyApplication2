@@ -30,6 +30,19 @@ class MainActivity : AppCompatActivity() {
         val secondText = "Вася"
         val thirdText = "Возраст"
         val fourthText = 26
+        var index = 1
+        val count = 10
+        //val array = mutableListOf<Int>(90,13,55,99)
+        //array = 13
+
+        while (count >= index) {//10>=10
+            val answer = 3 * index
+            val text = "3 * $index = $answer"
+            Log.i("ANSWER", text)
+            index += 1
+        }
+
+
 
         //ИмяВасяВозраст26
         val firstTypeText = firstText + " " + secondText + thirdText + fourthText.toString()
