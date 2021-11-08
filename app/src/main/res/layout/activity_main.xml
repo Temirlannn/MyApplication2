@@ -20,9 +20,7 @@
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_gravity="center"
-        android:src="@drawable/avatarch"
-
-        />
+        android:src="@drawable/avatarch"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -34,18 +32,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="20dp"
-            android:text="Имя:"
-
-            />
+            android:text="Имя:"/>
 
         <EditText
             android:id="@+id/firstName"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:inputType="text"
-            android:hint="Введите имя"
-
-            />
+            android:hint="Введите имя"/>
 
     </LinearLayout>
 
@@ -60,18 +54,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Возраст:"
-            android:textSize="20dp"
-
-            />
+            android:textSize="20dp"/>
 
         <EditText
             android:id="@+id/age"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:hint="Введите возраст"
-            android:inputType="number"
-
-            />
+            android:inputType="number"/>
 
 
     </LinearLayout>
@@ -86,18 +76,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="20dp"
-            android:text="Дата рождения:"
-
-            />
+            android:text="Дата рождения:"/>
 
         <EditText
             android:id="@+id/BirthDate"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:hint="Введите дату раждения"
-            android:inputType="date"
-
-            />
+            android:inputType="date"/>
     </LinearLayout>
 
     <Button
@@ -105,10 +91,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
+        android:layout_gravity="center"
         android:text="Сохранить"
-        android:textAllCaps="false"
-
-        />
+        android:textAllCaps="false"/>
 
 </LinearLayout>
 

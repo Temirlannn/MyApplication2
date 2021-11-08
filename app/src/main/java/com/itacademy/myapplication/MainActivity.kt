@@ -16,7 +16,6 @@ class MainActivity : AppCompatActivity() {
     lateinit var firstName: EditText
     lateinit var age: EditText
     lateinit var BirthDate: EditText
-
     lateinit var saveBtn: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -27,12 +26,10 @@ class MainActivity : AppCompatActivity() {
         BirthDate = findViewById(R.id.BirthDate)
         saveBtn = findViewById(R.id.saveBtn)
 
-
         val firstText = "Имя"
         val secondText = "Вася"
         val thirdText = "Возраст"
         val fourthText = 26
-
 
         //ИмяВасяВозраст26
         val firstTypeText = firstText + " " + secondText + thirdText + fourthText.toString()
@@ -40,7 +37,6 @@ class MainActivity : AppCompatActivity() {
 
         Log.i("Первый формат:", firstTypeText)
         Log.i("Второй формат:", secondTypeText)
-
 
         saveBtn.setOnClickListener {
             val name = firstName.text.toString()
@@ -50,11 +46,9 @@ class MainActivity : AppCompatActivity() {
 
             val user: User = User(name, ageText, gender, Date(2002,5,31))
 
-
             val intent = Intent(this,SecondActivity::class.java) // intent - путь
             intent.putExtra("user", user)
             startActivity(intent)
-
         }
     }
 
@@ -83,5 +77,4 @@ class MainActivity : AppCompatActivity() {
         super.onDestroy()
         Log.i("OnDestroy","Уничтожение")
     }
-
 }

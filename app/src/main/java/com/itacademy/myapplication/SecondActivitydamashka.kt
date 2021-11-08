@@ -9,19 +9,14 @@ class SecondActivitydamashka : AppCompatActivity() {
 
     lateinit var textfirstNAme2:EditText
     lateinit var textsecondName:EditText
-
     lateinit var btnknopka:ImageButton
-
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_second_activitydamashka)
 
-
         textfirstNAme2 = findViewById(R.id.firstname2)
         textsecondName = findViewById(R.id.secondName)
-
-
         btnknopka = findViewById(R.id.btnknopka)
 
         val name = intent.getStringExtra("NAME")
@@ -33,12 +28,5 @@ class SecondActivitydamashka : AppCompatActivity() {
         btnknopka.setOnClickListener{
             onBackPressed()
         }
-
-
-
-
-
-        setContentView(R.layout.activity_second_activitydamashka)
-
     }
 }
